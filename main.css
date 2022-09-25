@@ -1,0 +1,300 @@
+header{
+    height: 400px;
+}
+:root{
+    
+--Moderate-cyan: hsl(176, 50%, 47%);
+--Dark-cyan: hsl(176, 72%, 28%);
+--Black: hsl(0, 0%, 0%);
+--Dark-gray: hsl(0, 0%, 48%);
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: var(--Black);
+}
+main{
+    width: 1300px;
+    margin: 0 auto;
+    background-color:white;
+    height: 2500px;
+    line-height: 1.5;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+
+header{
+    height: 30rem;
+}
+
+.top-nav{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+  .top-nav ul{
+      display: inline-flex;
+      text-align: center;
+      float: right;
+      list-style: none;
+      margin-left:200px;
+      margin-top:80px;
+  }
+
+  .logo-icon{
+    margin-top: 80px;
+  }
+  .top-nav ul li{
+  margin: 0px 30px;
+  }
+  .top-nav ul li a{
+      text-decoration: none;
+      color: white;
+      font-size:15px ;
+      
+  }
+  .top-nav ul li a:hover{
+      opacity: 0.5;
+  }
+  .top-nav ul li a:hover{
+      opacity: 0.5;
+  }
+  #section--1{
+    width: 60%;
+    height: 280px;
+    text-align: center;
+    margin: 60px auto 30px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgb(239, 230, 230);
+    margin-top: -200px
+  };
+
+#section--1 h3{
+    margin-top: 50px ;
+}
+#section--1 p{
+    margin-bottom: 30px;
+}
+
+.btn-btn:hover,.btn-bookmark:hover{
+    background-color: var(--Dark-gray)
+}
+
+.edition h3{
+    margin:50px 50px 20px;
+}
+.back{
+   float: left;
+   margin-left: 60px;
+   margin-top: 10px;
+   padding: 20px 60px;
+}
+p{
+    color: var(--Dark-gray);
+}
+#section--2{
+    width: 60%;
+    margin: 0 auto;
+    margin-top:20px;
+    text-align: center;
+    height: 300px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgb(239, 230, 230)
+}
+
+#section--3{
+    height: 1400px;
+    width: 60%;
+    margin: 40px auto 40px;
+    box-shadow: 2px 2px 2px 2px rgb(239, 230, 230);
+    text-align: left;
+  background-color: white;
+}
+
+#section--4,
+#section--5,
+#section--6{
+    height: 320px;
+    width:90%;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px rgb(239, 230, 230)
+   }
+
+.section--2{
+    display: inline-flex;
+   text-align: center;
+   border-right: 3px;
+}
+.bookmark-part{
+float: right;
+margin-right: 70px;
+margin-top:-14px;
+
+}
+.icon-bookmark{
+    position: relative;
+    left: 39px;
+    top: 23.5px;
+    border-bottom-left-radius: brown;
+    
+}
+.btn-bookmark{
+    background-color: var(--Dark-cyan);
+    padding: 17px 50px 17px 30px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius:25px;   
+    color: white;
+    font-size: 18px;
+    
+}
+
+.btn-btn{
+    background-color: var(--Dark-cyan);
+     padding: 17px 50px;
+     border-radius: 30px;
+     color: white;
+     font-size: 18px;
+    }
+.select{
+ margin-left: 300px;
+}
+
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 27px;;
+}
+
+h1{
+    font-size: 38px;
+}
+
+.total,
+.hacked,
+.left-day{
+ border-right:0.5px solid rgb(243, 235, 235);
+ border-radius: 3px;
+padding-right: 45px;
+margin: 40px;
+}
+.total p,
+.hacked p,
+.left-day p{
+margin-top: -25px;
+}
+hr{
+    padding: 8px;
+    border-radius: 23px;
+    background-color: var(--Dark-cyan);
+    width: 55%;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+.special--2,
+.edition--2,
+.bamboo--2{
+float: right;
+margin-right: 70px;
+margin-top: 50px;
+color: var(--Moderate-cyan);
+font-size: 25px;
+
+}
+
+.special-box button{
+margin-left: 330px;
+}
+.bamboo-box button{
+margin-left: 280px;
+}
+
+.special-data{
+    display: inline-flex;
+    margin-left: 50px;
+}
+.bamboo-data{
+    display: inline-flex;
+    margin-left: 50px;
+   
+}
+.edition-data{
+    display: inline-flex;
+    margin-left: 50px;
+
+
+}
+
+.project-description p{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.project-description h3 {
+    margin-left: 50px;
+   
+}
+.nay{
+    margin-top:60px;
+    
+}
+.description-bamboo h3,
+.description-edition h3,
+.description-special h3{
+display: inline-flex;
+margin:50px 50px 20px;
+}
+
+.left{
+    margin-top: 55px;
+    margin-left: 10px;
+}
+.description-paragraph{
+margin-left:50px;
+  width: 80%;
+}
+.m hr{
+    background-color: white;;
+    width: 62%;
+
+margin-right: 200px;
+ position: relative;
+ left: -60px;
+ top: 1px;
+ padding: 8px;
+ 
+}
+.line{
+ display:flex;
+ margin-left: 40px;
+    
+}
+#welcome{
+    background-color: rgb(254, 254, 254);
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px rgb(239, 230, 230);
+    height:500px;
+    text-align: center;
+    line-height: 1.5;
+    position: relative;
+    bottom:1910px;
+    z-index: 200;
+    opacity: 0;
+}
+.check-icon{
+    width: 20%;
+   margin-top:70px;
+  
+}
+#welcome p{
+    width: 80%;
+    margin:0 auto ;
+}
+.got{
+    margin-top: 30px;
+}
